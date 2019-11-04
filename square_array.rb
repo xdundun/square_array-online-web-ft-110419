@@ -5,4 +5,5 @@ def square_array(array)
     puts "#{square}"
      square_array[square] = square**2
 end
+return square_array
 end
