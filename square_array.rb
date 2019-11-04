@@ -5,6 +5,7 @@ def square_array(array)
   array.each do |square|
     puts "#{square}"
      square_array[counter] = square**2
+     counter +=1
 end
 return square_array
 end
